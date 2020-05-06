@@ -1,0 +1,20 @@
+﻿<Window x:Class="Quiz3_NickIlkic.DataGrid"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Quiz3_NickIlkic"
+        mc:Ignorable="d"
+        Title="DataGrid" Height="450" Width="800">
+    <StackPanel>
+        <DataGrid x:Name="dataGridSample" ItemsSource="{Binding}">
+            <DataGrid.Columns>
+            <DataGridTextColumn Header="Id" Binding="{Binding Id}"></DataGridTextColumn>
+            <DataGridTextColumn Header="FirstName" Binding="{Binding FirstName}"></DataGridTextColumn>
+            <DataGridTextColumn Header="LastName" Binding="{Binding LastName}"></DataGridTextColumn>
+            <DataGridTextColumn Header="IsReg" Binding="{Binding IsReg}"></DataGridTextColumn>
+        </DataGrid.Columns>
+    </DataGrid>
+        
+    </StackPanel>
+</Window>

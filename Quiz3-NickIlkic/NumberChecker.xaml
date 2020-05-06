@@ -1,0 +1,14 @@
+﻿<Window x:Class="Quiz3_NickIlkic.NumberChecker"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Quiz3_NickIlkic"
+        mc:Ignorable="d"
+        Title="NumberChecker" Height="450" Width="800">
+    <StackPanel>
+        <Label Name="List">List:</Label>
+        <TextBlock>55 200 740 76 230 482 95</TextBlock>
+        <Button Click="Button_Click">Check</Button>
+    </StackPanel>
+</Window>

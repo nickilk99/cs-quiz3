@@ -1,0 +1,15 @@
+﻿
+
+
+
+Question 4:
+
+Code first approach is creating the structure in C# first and then adding the connection string and running the program. It will create the database automatically.
+
+Database approach is the opposite, where the database is created first and the code is added automatically.
+
+
+Question 5:
+MVVM stand for Model View View-Model
+It is similar to MVC in that the components of a project are sperated, however in this case there is no controller. 
+The view-model part is what translates the data from the business logic into presentaion.
